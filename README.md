@@ -1,7 +1,7 @@
 # Scrapy Project: Neurosurgeon Data Scraper
 
 ## Overview
-This project is a Scrapy spider that scrapes data leads from the ABNS (American Board of Neurological Surgery) website. It collects detailed information about neurosurgeons, which can be utilized for research, analysis, or improving patient access to qualified professionals. By providing easy access to this information, the project aims to help the public find qualified neurosurgeons in a timely manner, enhancing patient access to quality healthcare.
+The project is a Scrapy spider that scrapes data leads from the ABNS (American Board of Neurological Surgery) website. It collects detailed information about neurosurgeons, which can be utilized for research, analysis, or improving patient access to qualified professionals. By providing easy access to this information, the project aims to help the public find qualified neurosurgeons in a timely manner, enhancing patient access to quality healthcare.
 
 ## Features
 - Scrapes neurosurgeon data including:
