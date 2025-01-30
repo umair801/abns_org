@@ -118,7 +118,7 @@ class AbnsOrgSpider(scrapy.Spider):
 
             yield {
                 'Neurosurgeon': name,
-                'ABNS Certificate': abns_certificate,
+                'ABNS Certificate': abns_certificate.replace('\xa0', ''),
                 'RFP in CNS Endovascular Surgery': rfp_in_cns,
                 'RFP in Neurological Critical Care': rfp_in_neuro,
                 'RFP in Pediatric Neurological Surgery': rfp_in_pedia,
